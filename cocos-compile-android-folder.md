@@ -19,7 +19,7 @@ cocos2d-x(3.5)创建项目，会自动添加几个平台的目录，例如
 
 下次要编译proj.android_xxx目录下的项目，执行
 
-```cocos compile -p android -s ./my_project - debug -f proj.android_xxx```
+```cocos compile -p android -s xx/yy/my_project -m debug -f proj.android_xxx```
 
 就可以了
 ***
