@@ -15,6 +15,17 @@ cocos2d-x(3.5)创建项目，会自动添加几个平台的目录，例如
 
 修改了两个py文件。
 
+***
+
+下次要编译proj.android_xxx目录下的项目，执行
+
+```cocos compile -p android -s ./my_project - debug -f proj.android_xxx```
+
+就可以了
+***
+
+下面具体说一下修改的地方。我只修改了MacOS下的android平台部分。如果对于其他平台，或者其他操作系统，有需要改的，可以参考着修改。
+
 ## tools/cocos2d-console/bin/cocos.py
 
 
